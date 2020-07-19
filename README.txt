@@ -1,0 +1,9 @@
+Ffmpeg.py:用ffmpeg工具对视频进行抽帧，剪切拼接，压缩视频等处理
+Fragment_mothed.py:将处理后的时间戳合并成时间段，提供给Ffmpeg.py做视频处理
+Tensorflow.py:调用训练好的模型对图片进行图像识别处理
+UI.py:界面设计
+Main.py:主函数
+videoData.txt:保存上一个处理的视频信息，以免通过ffmpeg工具识别查询重复视频信息
+/serving：保存Tensorflow模型
+/serving/voc2012:保存voc2012数据集在yolov3模型上迁移训练的模型，有20个类，速度更快
+/serving/yolov3:yolov3官方给的训练好的权参建立的模型有80个类，精度更高

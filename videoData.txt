@@ -1,0 +1,1 @@
+{'Soure': 'C:\\Users\\zack\\Desktop\\VID_20200512_230628.mp4', 'Size': '1920x1080', 'Fps': 30, 'Vcodec': 'h264', 'Acodec': 'aac'}
